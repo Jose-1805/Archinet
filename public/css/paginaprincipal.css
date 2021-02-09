@@ -1,0 +1,275 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : 7/06/2018, 10:29:07 PM
+    Author     : Leidy Silvana
+*/
+/*@font-face {
+    font-family: handsean;
+    src: url(/tipografia/handsean.ttf);
+}*/
+@font-face {
+    font-family: miriand;
+    src: url(/tipografia/MyriadPro-Bold.otf);
+}
+
+body {
+    position: relative;
+    min-height: 100vh;
+}
+
+.main {
+    padding-bottom: 12rem;
+}
+
+h1 {
+    font-weight: bold;
+    border-style: solid #17999;
+}
+
+.encabezado-verde {
+    background-color: #238276;
+    height: 2.5rem;
+
+}
+
+.header-principal {
+
+    border-bottom: 2px solid #87BBAF;
+}
+
+.header-logo-sena {
+    position: relative;
+    text-align: right;
+    display: inline-block;
+}
+
+.header-logo-sena img {
+    width: auto;
+    max-height: 12.5rem;
+}
+
+.header-logo-archi {
+
+    display: inline-block;
+}
+
+.header-logo-archi img {
+    max-height: 12.5rem;
+    width: auto;
+}
+
+.header-titulo {
+    color: #1F8678 !important;
+    font-family: miriand;
+    font-size: 1.6rem;
+    text-align: center;
+    display: inline-block;
+}
+
+.header-division {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+
+    margin: auto;
+    display: inline-block;
+    height: 6rem;
+    border-left: 2px solid #87BBAF;
+}
+
+.contenedor {
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
+}
+
+.slider, .iniciosesion {
+    display: inline-block;
+}
+
+.iniciosesion {
+    text-align: center;
+    width: 32%;
+    vertical-align: top;
+    position: relative;
+    height: 19rem;
+}
+
+.contenido1, .contenido2 {
+
+    text-align: justify;
+    display: inline-block;
+}
+
+.contenido {
+    text-align: center;
+    padding-top: 3rem;
+}
+
+.contenido1 {
+
+    padding-right: 3rem;
+}
+
+.contenido2 {
+    padding-left: 3rem;
+
+}
+
+.footer-principal {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+    width: 100%;
+    background-color: #238276;
+}
+
+.footer-info {
+    display: inline-block;
+    max-width: 80%;
+    color: #eee;
+}
+
+.frmLogin {
+    border: 0.05rem solid #00a485;
+    border-radius: 1.1rem;
+    padding: 2rem;
+    position: absolute;
+    right: -83px;
+    top: 0;
+    height: 19rem;
+
+}
+
+.frmLogin .control-label {
+    color: #00a485 !important;
+}
+
+/*<!- cambios crear usuario *-->*/
+
+/*.titulo_principal {
+    padding-top: 1.5rem;
+}*/
+.container-fluid{
+    padding-top: 1rem;
+}
+.tbl-usuario {
+    padding-top: 2rem;
+}
+
+.campo .md-form {
+    padding: 0.4rem;
+}
+
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+
+}
+
+#fecha_nacimiento {
+    border-bottom: 0.1rem dotted;
+    padding-bottom: 0rem;
+}
+
+.btn-guardar {
+    position: relative;
+    top: -3rem;
+}
+
+.mdlDetalles {
+    background-color: #00c851db;
+}
+
+#contenedor-privilegios * {
+    border: none;
+    box-shadow: none;
+}
+
+.btnAceptar {
+    border: none;
+}
+
+.opcion {
+
+    background-color: #b6bdbf;
+    text-align: right;
+}
+
+.modulo, .tar {
+    display: inline-block;
+    font-size: 1.5rem;
+
+}
+
+.titulo-per {
+    font-size: 0.7rem;
+    padding-left: 1rem;
+}
+
+.modulo {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.tipografia {
+
+    font-family: Miriam;
+
+}
+
+.funciones {
+    width: 24rem;
+}
+
+.titulo-per {
+    font-size: 1rem;
+    padding-left: 0;
+
+}
+
+.contenerdorBtncrear {
+   display: block;
+   width: 100%;
+}
+.btnCrearUsuario {
+    display: inline-block;
+
+   /* position: relative;
+    left: -0.5rem;
+    top: 3rem;*/
+    padding: 1.5rem 1.5rem !important;
+}
+
+.modulo{
+    text-align: center;
+
+}
+.tar{
+    text-align: right;
+}
+.rol{
+
+    font-weight: bold;
+    display: inline-block;
+    padding-right: 2rem;
+    margin: auto;
+    
+}
+
+.mod-funciones{
+    padding-top: 0.01rem;
+}
+.texto{
+    font-weight: bold;
+}
+.texto1{
+    text-align: center;
+    padding-top: 1rem;
+}
+.fun{
+    text-align: center;
+}

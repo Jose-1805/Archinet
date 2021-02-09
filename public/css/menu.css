@@ -1,0 +1,80 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 08-jun-2018, 17:18:37
+    Author     : aprendiz
+*/
+
+/*.card-header{*/
+
+/*font-size: 1.2rem;*/
+/*font-family:fantasy;*/
+/*color: #1F8678 !important;*/
+/*}*/
+
+.roles{
+    text-align: left;
+    border-bottom: 0.1rem solid #A0A0A0;    
+}
+
+.contenedorMenu{
+    /*right: 10px;*/
+    display: inline-block;
+    vertical-align: top;
+    min-height: 100%;
+    position: relative;
+
+}
+.nav{
+    min-height: 1rem;
+}
+.contenedor{
+    position: relative;   
+}
+/*.btnCreaRol{*/
+/*position: absolute;*/
+/*right:-6.5rem;*/
+/*top:0.29rem;*/
+/*width: 7rem;*/
+/*}*/
+.nombreAdmin{
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 1.3rem;
+}
+.menu li{
+    text-align: justify;
+    padding: .4rem 1rem;
+    vertical-align: middle;
+}
+
+.perfil{
+    padding: .4rem 1rem;
+    background-color: #17999C;
+    border: solid #E0E0E0;
+    text-align: center;
+}
+.fotos{
+    vertical-align: middle;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    width: 7rem;
+    overflow: hidden;
+}
+.nombreAdmin{
+    position: relative;
+    font-weight: bold;
+}
+.config{
+    position: absolute;
+    right: 0;
+}
+
+.conten_crear{
+    width: 100%;
+    text-align: right;
+    padding-bottom: 2rem;
+}

@@ -1,0 +1,60 @@
+#btnCrearRol {
+    width: 9rem;
+}
+
+.td-peque {
+    width: .3rem;
+}
+
+#btn_modal_nuevo_rol {
+    /*width: 7rem;*/
+}
+
+.rol {
+    padding: 1rem;
+    font-weight: bold;
+    display: inline-block;
+    padding-right: 2rem;
+    margin: auto;
+}
+
+.mod-funciones {
+
+    padding-top: 0.01rem;
+}
+
+
+.texto {
+    font-weight: bold;
+}
+.lista{
+    border: 0.01rem solid #adadd2;
+    padding-bottom: 2rem;
+}
+.texto1 {
+    text-align: center;
+    padding-top: 1rem;
+}
+.permiso{
+   border: 0.01rem solid #adadd2;
+    width: 100%;
+    text-align: center;
+    background-color: #CBCBCB;
+    color: #0000;
+}
+
+.fun {
+    text-align: center;
+}
+
+.tabla-permisos th, .tabla-permisos td {
+    padding-left: 0rem;
+    padding-right: 0rem;
+    border-top: none;
+}
+.opcion{
+    background-color:#B6BDBF;
+}
+.tabla-permisos .etiqueta-tabla{
+    padding-left: 1rem ;
+}

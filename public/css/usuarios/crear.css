@@ -1,0 +1,12 @@
+.botones{
+    text-align: right;
+}
+
+.botones .btn{
+	display: inline-block;
+}
+
+.obligatorio{
+    color:red;
+    font-family: "Segoe UI Semibold";
+}
